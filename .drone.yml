@@ -11,7 +11,7 @@ build:
 publish:
     docker:
         repo: $$DOCKER_USERNAME/cicd_demoapp
-        tag: rosa-latest
+        tag: latest
         username: $$DOCKER_USERNAME
         password: $$DOCKER_PASSWORD
         email: $$DOCKER_EMAIL
